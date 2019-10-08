@@ -1,0 +1,107 @@
+{\rtf1\ansi\ansicpg1251\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red202\green202\blue202;\red70\green137\blue204;\red23\green23\blue23;
+\red54\green192\blue160;\red79\green123\blue61;\red125\green125\blue125;\red212\green212\blue212;\red167\green197\blue152;
+\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c83137\c83137\c83137;\cssrgb\c33725\c61176\c83922;\cssrgb\c11765\c11765\c11765;
+\cssrgb\c23922\c78824\c69020;\cssrgb\c37647\c54510\c30588;\cssrgb\c56471\c56471\c56471;\cssrgb\c86275\c86275\c86275;\cssrgb\c70980\c80784\c65882;
+\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f0\fs28 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sl420\partightenfactor0
+\cf3 \cb4 import\cf2  \cf5 Foundation\cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf6 \cb4 //\uc0\u1054 \u1073 \u1098 \u1103 \u1074 \u1083 \u1103 \u1102  \u1084 \u1072 \u1089 \u1089 \u1080 \u1074 \cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf3 \cb4 var\cf2  array \cf7 =\cf2  \cf8 [\cf5 Int\cf8 ]()\cf2 \cb1 \
+\cf3 \cb4 var\cf2  array1 \cf7 =\cf2  \cf8 [\cf5 Int\cf8 ]()\cf2 \cb1 \
+\
+\pard\pardeftab720\sl420\partightenfactor0
+\cf6 \cb4 //\uc0\u1047 \u1072 \u1087 \u1086 \u1083 \u1085 \u1103 \u1102  \u1076 \u1072 \u1085 \u1085 \u1099 \u1084 \u1080 \cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf3 \cb4 func\cf2  arrayCreate\cf8 (\cf2 sizeArray\cf7 :\cf2  \cf5 Int\cf8 )\cf2  \cf8 \{\cf2 \cb1 \
+\cb4     \cf3 for\cf2  i \cf3 in\cf2  \cf9 0\cf8 ..\cf2 .\cf5 sizeArray\cf7 -1\cf2  \cf8 \{\cf2 \cb1 \
+\cb4         array.\cf5 append\cf8 (\cf5 Int\cf2 .\cf5 random\cf8 (\cf3 in\cf7 :\cf2  \cf9 0\cf8 ..\cf9 .20\cf7 *99\cf8 ))\cf2 \cb1 \
+\cb4     \cf8 \}\cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf8 \cb4 \}\cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf6 \cb4 //\uc0\u1042 \u1099 \u1079 \u1086 \u1074  \u1092 \u1091 \u1085 \u1082 \u1094 \u1080 \u1080 \cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf2 \cb4 arrayCreate\cf8 (\cf2 sizeArray\cf7 :\cf2  \cf9 15\cf8 )\cf2 \cb1 \
+\cb4 print\cf8 (\cf2 array\cf8 )\cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf6 \cb4 //\uc0\u1092 \u1091 \u1085 \u1082 \u1094 \u1080 \u1103  \u1091 \u1076 \u1072 \u1083 \u1077 \u1085 \u1080 \u1077 \cf2 \cb1 \
+\pard\pardeftab720\sl420\partightenfactor0
+\cf3 \cb4 func\cf2  arrayDelete\cf8 ()\cf2  \cf8 \{\cf2 \cb1 \
+\cb4   \cf3 var\cf2  x\cf7 =1\cf2 \cb1 \
+\cb4       \cf3 for\cf2  a  \cf3 in\cf2  array  \cf8 \{\cf2 \cb1 \
+\cb4         \cf3 if\cf2  x \cf7 %\cf2  \cf9 3\cf2  \cf7 ==\cf2  \cf9 0\cf2  \cf8 \{\cf2 \cb1 \
+\cb4             array1.\cf5 append\cf8 (\cf2 a\cf8 )\cf2 \cb1 \
+\cb4            \cb1 \
+\cb4         \cf8 \}\cf2  \cb1 \
+\cb4         x\cf7 =x+1\cf2 \cb1 \
+\cb4     \cf8 \}\cf2  \cb1 \
+\cb4    array.\cf5 removeAll\cf8 ()\cf2 \cb1 \
+\cb4    \cb1 \
+\cb4  \cf8 \}\cf2 \cb1 \
+\cb4 arrayDelete \cf8 ()\cf2 \cb1 \
+\cb4 print \cf8 (\cf2 array1\cf8 )\cf2 \cb1 \
+\cb4   \cf3 var\cf2  \cf5 ArTabl\cf2  \cf7 =\cf2  \cf5 Array\cf8 (\cf2 repeating\cf7 :\cf2  \cf5 Array\cf8 (\cf2 repeating\cf7 :\cf9 0\cf7 ,\cf2 count\cf7 :\cf9 10\cf8 )\cf7 ,\cf2 count\cf7 :\cf9 10\cf8 )\cf2 \cb1 \
+\cb4   \cf3 for\cf2  i \cf3 in\cf2  \cf9 0\cf8 ..<\cf9 10\cf2  \cf8 \{\cf2 \cb1 \
+\cb4       \cf3 for\cf2  j \cf3 in\cf2  \cf9 0\cf8 ..<\cf9 10\cf2  \cf8 \{\cf2 \cb1 \
+\cb4       \cf5 ArTabl\cf8 [\cf2 i\cf8 ][\cf2 j\cf8 ]\cf2  \cf7 =\cf2  \cf8 (\cf2 i\cf7 +1\cf8 )\cf2  \cf7 *\cf2  \cf8 (\cf9 1\cf7 +j\cf8 )\cf2 \cb1 \
+\cb4     \cf8 \}\cf2 \cb1 \
+\cb4   \cf8 \}\cf2 \cb1 \
+\cb4   \cf3 func\cf2  \cf5 Found\cf8 (\cf2 membr\cf7 :\cf5 Int\cf8 )\{\cf2 \cb1 \
+\cb4  \cb1 \
+\cb4   \cf3 for\cf2  i \cf3 in\cf2  \cf9 0\cf8 ..<\cf9 10\cf2  \cf8 \{\cf2 \cb1 \
+\cb4       \cf3 for\cf2  j \cf3 in\cf2  \cf9 0\cf8 ..<\cf9 10\cf2  \cf8 \{\cf2 \cb1 \
+\cb4       \cf3 if\cf2  membr \cf7 ==\cf2  \cf8 (\cf2 i\cf7 +1\cf8 )\cf7 *\cf8 (\cf2 j\cf7 +1\cf8 )\cf2  \cf8 \{\cf2 \cb1 \
+\cb4           print\cf8 (\cf2 i\cf7 +1\cf8 )\cf2 \cb1 \
+\cb4           print\cf8 (\cf2 j\cf7 +1\cf8 )\cf2 \cb1 \
+\cb4       \cf8 \}\cf2 \cb1 \
+\
+\cb4     \cf8 \}\cf2 \cb1 \
+\cb4   \cf8 \}\cf2 \cb1 \
+\cb4   \cf8 \}\cf2 \cb1 \
+\cb4  \cb1 \
+\cf5 \cb4 Found\cf8 (\cf2 membr\cf7 :\cf9 20\cf8 )\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\fs24 \cf10 \cb1 \outl0\strokewidth0 \strokec10 import Foundation\
+\
+var arr = [Int]()\
+var arr1 = [356,1762,737]\
+\
+arr.append(3)\
+arr1.insert(34664, at: 1)\
+arr1.remove(at: 0)\
+arr1.count\
+arr1.first //arr1[0]\
+arr1.endIndex\
+arr1.max()\
+arr1.min()\
+arr1[1]\
+arr1.isEmpty\
+for value in arr1 \{\
+    print(value)\
+\}\
+var airports = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]\
+airports["YYZ"]\
+airports.updateValue("Dublin Airport", forKey: "DUB")\
+airports.removeValue(forKey: "DUB")\
+for (airportCode, airportName) in airports \{\
+    print("\\(airportCode): \\(airportName)")\
+\}\
+for airportName in airports.values \{\
+    print("\\(airportName)")\
+\}\
+\pard\pardeftab720\sl420\partightenfactor0
+
+\f0\fs28 \cf2 \outl0\strokewidth0 \
+}
